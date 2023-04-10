@@ -271,35 +271,8 @@ body {
 /* END OF BODY */
 
 /* HERO */
-.hero-image-home {
-  background-image: url("../img/background.jpg");
-  height: 1000px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-image-index {
-  background-image: url("../img/background.jpg");
-  height: 1000px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-image-product-listing {
-  background-image: url("../img/background.jpg");
-  height: 1000px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-image-checkout-cart {
-  background-image: url("../img/background.jpg");
+.hero-image {
+  background-image: url("../img/background-resized.jpg");
   height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
@@ -308,21 +281,24 @@ body {
 }
 
 .hero-text {
-  text-align: center;
+  text-align: left;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 20%;
   transform: translate(-50%, -50%);
   color: #000;
 }
 
 h1.hero {
-  font-size: 725%;
-  font-weight: bold;
+  font-size: 1000%;
+  font-weight: 900;
+  line-height: 0.25;
 }
 
 p.hero {
-  font-size: 140%;
+  font-family: "SF UI", sans-serif;
+  font-weight: lighter;
+  font-size: 200%;
 }
 /* END OF HERO */
 
@@ -386,6 +362,7 @@ h5 {
 }
 
 p {
+  font-family: "SF UI", sans-serif;
   margin-top: 1rem;
   margin-bottom: 1rem;
   line-height: 140%;
@@ -509,30 +486,16 @@ footer a.in-text:focus {
 a.in-text {
   color: inherit;
   text-decoration: none;
-}
-
-a.in-text {
-  background: linear-gradient(to right, #fdd037, #fdd037),
-  linear-gradient(to right, #fa5a20, #fa5a20);
-  background-size: 100% 8px, 0 8px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
+  transition: color 200ms;
 }
 
 a.in-text:hover {
-  background-size: 0 8px, 100% 8px;
+  color: #2E73F6;
 }
 
 a.in-text:focus {
-  background: linear-gradient(to right, #fa5a20, #fa5a20),
-  linear-gradient(to right, #fa5a20, #fa5a20);
-  background-size: 100% 8px, 0 8px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
+  color: #2E73F6;
 }
-/* END OF IN-TEXT LINK */
 
 /* IMAGE AS A LINK */
 a.image {

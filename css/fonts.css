@@ -32,3 +32,24 @@
 	font-style: normal;
 	src: url('../fonts/VisbyRoundCF-Heavy.ttf');
 }
+
+@font-face {
+	font-family: 'SF UI';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/sf-ui-medium.otf');
+}
+
+@font-face {
+	font-family: 'SF UI';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/sf-ui-bold.otf');
+}
+
+@font-face {
+	font-family: 'SF UI';
+	font-weight: lighter;
+	font-style: normal;
+	src: url('../fonts/sf-ui-light.otf');
+}
