@@ -1,31 +1,34 @@
-/*
-FONTS - Échanger
-*/
-
 @font-face {
-	font-family: 'Polarity';
+	font-family: 'Visby Round';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../fonts/polarity-regular.otf');
+	src: url('../fonts/VisbyRoundCF-Regular.ttf');
 }
 
 @font-face {
-	font-family: 'Polarity';
+	font-family: 'Visby Round';
 	font-weight: normal;
 	font-style: italic;
-	src: url('../fonts/polarity-italic.otf');
+	src: url('../fonts/VisbyRoundCF-Oblique.ttf');
 }
 
 @font-face {
-	font-family: 'Polarity';
+	font-family: 'Visby Round';
 	font-weight: bold;
 	font-style: normal;
-	src: url('../fonts/polarity-bold.otf');
+	src: url('../fonts/VisbyRoundCF-Bold.ttf');
 }
 
 @font-face {
-	font-family: 'Polarity';
+	font-family: 'Visby Round';
 	font-weight: bold;
 	font-style: italic;
-	src: url('../fonts/polarity-bolditalic.otf');
+	src: url('../fonts/VisbyRoundCF-BoldOblique.ttf');
+}
+
+@font-face {
+	font-family: 'Visby Round';
+	font-weight: bolder;
+	font-style: normal;
+	src: url('../fonts/VisbyRoundCF-Heavy.ttf');
 }
