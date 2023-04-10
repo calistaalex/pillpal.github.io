@@ -9,7 +9,8 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 5rem;
+  /* padding: 3rem 5rem; */
+  padding: 4rem 11rem;
   background: #F0F0F0;
   color: #030303;
   font-size: 130%;
@@ -25,7 +26,8 @@ header {
 .brand {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 740px;
+  /* margin-right: 740px; */
+  margin-right: 550px;
   font-family: "Visby Round", sans-serif;
 }
 
@@ -64,213 +66,11 @@ header.scroll-down {
   transform: translateY(-100%);
 }
 
-.mouse_scroll {
-  display: block;
-  margin: 0 auto;
-  margin-top: 125px;
-  width: 25px;
-  height: 100px;
-}
-
-.m_scroll_arrows {
-  display: block;
-  width: 5px;
-  height: 5px;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-  transform: rotate(45deg);
-  border-right: 2px solid #000;
-  border-bottom: 2px solid #000;
-  margin: 0 0 5px 5px;
-  width: 15px;
-  height: 15px;
-}
-
-.one,
-.two,
-.three {
-  -webkit-animation: mouse-scroll 1s infinite;
-  -moz-animation: mouse-scroll 1s infinite;
-  animation: mouse-scroll 1s infinite;
-}
-
-.one {
-  -webkit-animation-delay: 0.1s;
-  -moz-animation-delay: 0.1s;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
-  animation-delay: alternate;
-}
-
-.two {
-  -webkit-animation-delay: 0.2s;
-  -moz-animation-delay: 0.2s;
-  -webkit-animation-direction: alternate;
-  animation-delay: 0.2s;
-  animation-direction: alternate;
-  margin-top: -5px;
-}
-
-.three {
-  -webkit-animation-delay: 0.3s;
-  -moz-animation-delay: 0.3s;
-  -webkit-animation-direction: alternate;
-  animation-delay: 0.3s;
-  animation-direction: alternate;
-  margin-top: -5px;
-}
-
-.mouse {
-  height: 45px;
-  width: 25px;
-  border-radius: 15px;
-  transform: none;
-  border: 2px solid #000;
-  top: 180px;
-}
-
-.wheel {
-  height: 5px;
-  width: 2px;
-  display: block;
-  margin: 5px auto;
-  background: #000;
-  position: relative;
-  height: 5px;
-  width: 5px;
-  border: 2px solid #000;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-}
-
-.wheel {
-  -webkit-animation: mouse-wheel 0.6s linear infinite;
-  -moz-animation: mouse-wheel 0.6s linear infinite;
-  animation: mouse-wheel 0.6s linear infinite;
-}
-
-@-webkit-keyframes mouse-wheel {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(6px);
-    -ms-transform: translateY(6px);
-    transform: translateY(6px);
-  }
-}
-
-@-moz-keyframes mouse-wheel {
-  0% {
-    top: 1px;
-  }
-  25% {
-    top: 2px;
-  }
-  50% {
-    top: 3px;
-  }
-  75% {
-    top: 2px;
-  }
-  100% {
-    top: 1px;
-  }
-}
-
-@-o-keyframes mouse-wheel {
-  0% {
-    top: 1px;
-  }
-  25% {
-    top: 2px;
-  }
-  50% {
-    top: 3px;
-  }
-  75% {
-    top: 2px;
-  }
-  100% {
-    top: 1px;
-  }
-}
-@keyframes mouse-wheel {
-  0% {
-    top: 1px;
-  }
-  25% {
-    top: 2px;
-  }
-  50% {
-    top: 3px;
-  }
-  75% {
-    top: 2px;
-  }
-  100% {
-    top: 1px;
-  }
-}
-
-@-webkit-keyframes mouse-scroll {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes mouse-scroll {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-o-keyframes mouse-scroll {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes mouse-scroll {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-/* END OF SCROLLER BUTTON */
-
-/* BODY */
 body {
   background: #FFF;
   font-family: "Visby Round", sans-serif;
 }
-/* END OF BODY */
 
-/* HERO */
 .hero-image {
   background-image: url("../img/background-resized.jpg");
   height: 1000px;
@@ -284,8 +84,10 @@ body {
   text-align: left;
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 25%;
   transform: translate(-50%, -50%);
+  /* left: 20%;
+  transform: translate(-50%, -50%); */
   color: #000;
 }
 
@@ -334,7 +136,7 @@ h2 {
   color: #fa5a20;
   font-family: "Visby Round", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -774,16 +576,15 @@ input.radio-button:checked {
 }
 /* END OF ADD-TO-CART BUTTON */
 
-/* FOOOTER: https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html */
 footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #030303;
+  background: #1F1F1F;
   height: auto;
   width: 100vw;
   padding: 100px;
-  color: #fa5a20;
+  color: #2E73F6;
 }
 
 .footer-content {
@@ -795,9 +596,10 @@ footer {
 }
 
 .footer-content h3 {
+  font-style: normal;
   font-size: 250%;
   font-weight: 700;
-  line-height: 3rem;
+  line-height: 1rem;
 }
 
 .footer-content p {
@@ -821,14 +623,14 @@ footer {
 
 .socials a {
   text-decoration: none;
-  background-color: #fa5a20;
-  color: #fff;
+  background-color: #2E73F6;
+  border-radius: 100px;
+  color: #FFF;
   padding: 10px;
 }
 
 .socials a i {
-  font-size: 1.1rem;
-  width: 20px;
+  width: 15px;
   transition: color 0.2s ease;
 }
 
