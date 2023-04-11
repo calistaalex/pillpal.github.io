@@ -281,7 +281,7 @@ p.Visby Round {
 }
 
 p.Visby Round {
-  font-family: "Visby Round", sans-sans-serif;
+  font-family: "Visby Round", sans-serif;
   font-weight: 500;
   font-size: 300%;
   text-align: center;
@@ -301,30 +301,18 @@ nav a:focus {
 
 /* IN-TEXT LINK: https://css-tricks.com/css-link-hover-effects/ */
 footer a.in-text {
-  color: #fff;
-  text-decoration: none;
-}
-
-footer a.in-text {
-  background: linear-gradient(to right, #fa5a20, #fa5a20),
-  linear-gradient(to right, #a6a6a6, #a6a6a6);
-  background-size: 100% 8px, 0 8px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
+  color: #FFF;
+  font-family: "SF UI", sans-serif;
+  font-weight: bolder;
+  transition: color 400ms;
 }
 
 footer a.in-text:hover {
-  background-size: 0 8px, 100% 8px;
+  color: #a6a6a6;
 }
 
 footer a.in-text:focus {
-  background: linear-gradient(to right, #a6a6a6, #a6a6a6),
-  linear-gradient(to right, #a6a6a6, #a6a6a6);
-  background-size: 100% 8px, 0 8px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
+  color: #a6a6a6;
 }
 
 a.in-text {
