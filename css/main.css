@@ -142,6 +142,13 @@ p.hero {
 }
 
 .element-blue {
+  background-color: #E8F1FE;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.element-gray {
   background-color: #F6F6F6;
   padding: 2rem;
   margin-top: 2rem;
