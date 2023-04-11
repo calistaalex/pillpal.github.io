@@ -1,5 +1,5 @@
 # pillpal.github.io
 
-PillPal: Pill Reminder App For Our Elderly Pals 👋
+PillPal: Your Personal Pal for Pill Management 👋
 
 IAT 334: Final Website
