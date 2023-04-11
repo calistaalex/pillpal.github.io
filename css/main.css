@@ -25,7 +25,7 @@ header {
 .brand {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 550px;
+  margin-right: 540px;
   font-family: "Visby Round", sans-serif;
 }
 
@@ -47,7 +47,7 @@ a.button {
   border-radius: 100px;
   font-weight: 700;
   text-decoration: none;
-  padding: 1em;
+  padding: 1em 1.25em;
   transition-property: background-color;
   transition-duration: 0.2s;
 }
@@ -341,138 +341,14 @@ a.in-text:focus {
   color: #2E73F6;
 }
 
-/* IMAGE AS A LINK */
-a.image {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  opacity: 1;
-  transition: 0.5s ease;
-}
-
-a.image:hover {
-  opacity: 0.5;
-}
-
-a.image:focus {
-  opacity: 1;
-}
-/* END OF IMAGE AS A LINK */
-
-/* TEXT INPUT FIELD: https://codepen.io/chris__sev/pen/LYOyjY */
-.group {
-  position: relative;
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
-
-input.floating-field {
-  display: flex;
-  padding: 10px 10px 10px 5px;
-  font-size: 100%;
-  font-weight: 600;
-  width: 280px;
-  border: none;
-  border-bottom: 2px solid #030303;
-  background-color: transparent;
-}
-
-input.floating-field:focus {
-  outline: none;
-}
-
-label.floating-label {
-  position: absolute;
-  left: 5px;
-  top: 5px;
-  color: #030303;
-  font-size: 100%;
-  font-weight: 500;
-  poVisby Round-events: none;
-  transition: 0.2s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all;
-}
-
-input.floating-field:hover ~ label.floating-label,
-input.floating-field:valid ~ label.floating-label {
-  top: -20px;
-  color: #030303;
-  font-size: 85%;
-}
-
-input.floating-field:focus ~ label.floating-label,
-input.floating-field:valid ~ label.floating-label {
-  top: -20px;
-  color: #030303;
-  font-size: 85%;
-}
-
-.bar {
-  position: relative;
-  display: block;
-  width: 280px;
-}
-
-.bar:before {
-  position: absolute;
-  bottom: 1px;
-  content: "";
-  height: 5px;
-  width: 0;
-  background: #fa5a20;
-  transition: 0.2s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all;
-}
-
-.bar:before {
-  left: 0%;
-  border-bottom: 1px solid #030303;
-}
-
-input.floating-field:focus ~ .bar:before,
-input.floating-field:focus ~ .bar:after {
-  width: 100%;
-}
-/* END OF TEXT INPUT FIELD */
-
-/* RADIO BUTTON: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio */
-label.radio-button {
-  line-height: 140%;
-}
-
-input.radio-button {
-  position: relative;
-  top: 2px;
-  appearance: none;
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  margin-right: 5px;
-  border: 2px solid #030303;
-  transition: 0.2s all linear;
-}
-
-input.radio-button:hover {
-  border: 3px solid #030303;
-  transition: 0.2s all linear;
-}
-
-input.radio-button:checked {
-  background: #fa5a20;
-  border: 3px solid #030303;
-  transition: 0.2s all linear;
-}
-/* END OF RADIO BUTTON */
-
 /* BUTTON */
 .buttons {
   display: inline-block;
-  padding: 0.75rem;
+  padding: 1rem 2rem;
   color: #fff;
   background-color: #030303;
   border-style: hidden;
+  border-radius: 50px;
   font-weight: 600;
   text-decoration: none;
   transition-property: background-color;
@@ -481,7 +357,7 @@ input.radio-button:checked {
 
 .buttons:hover,
 .buttons:focus {
-  background-color: #fa5a20;
+  background-color: #235CC5;
 }
 
 .button-notification {
