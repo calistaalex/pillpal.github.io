@@ -9,7 +9,6 @@
 header {
   display: flex;
   justify-content: space-between;
-  /* padding: 3rem 5rem; */
   padding: 4rem 11rem;
   background: #F0F0F0;
   color: #030303;
@@ -26,7 +25,6 @@ header {
 .brand {
   display: inline-block;
   vertical-align: middle;
-  /* margin-right: 740px; */
   margin-right: 550px;
   font-family: "Visby Round", sans-serif;
 }
@@ -125,9 +123,6 @@ p.hero {
   font-size: 200%;
 }
 
-/* END OF HERO */
-
-/* STYLE GUIDE */
 .content {
   padding: 5rem;
 }
@@ -150,8 +145,14 @@ p.hero {
   background-color: #F6F6F6;
   padding: 2rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 8rem;
 }
+
+hr.rounded {
+  border-top: 5px solid #000;
+  border-radius: 5px;
+}
+
 /* END OF STYLE GUIDE */
 
 /* TEXT STYLING */
