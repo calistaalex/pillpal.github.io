@@ -225,6 +225,25 @@ FLEXBOX STYLING - Échanger
 
 /* BREAKPOINT 6 */
 @media (max-width:800px) {
+
+	.hero-text {
+	  text-align: center;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  color: #000;
+	}
+
+	h1.hero-center {
+	  line-height: 110%;
+	}
+
+	hr.rounded {
+	  border-top: 5px solid #000;
+	  border-radius: 5px;
+		margin-bottom: 50px;
+	}
 	/* NAVIGATION BAR */
 	.nav {
 		display: flex;
@@ -232,12 +251,15 @@ FLEXBOX STYLING - Échanger
 	}
 	.nav ul {
 		display: inline;
+		text-align: center;
 		font-size: 110%;
-		line-height: 250%;
+		line-height: 200%;
 	}
 	a.button {
 		display: block;
 		margin-top: 20px;
+		text-align: center;
+		font-size: 72.5%;
 		line-height: 120%;
 	}
 	/* END OF NAVIGATION BAR */
@@ -274,6 +296,20 @@ FLEXBOX STYLING - Échanger
 	  margin-top: 0rem;
 	  margin-bottom: 2rem;
 	}
+
+	.element-gray {
+	  background-color: #F6F6F6;
+	  padding: 0rem 1rem 1rem 1rem;
+	  margin-top: 0rem;
+	  margin-bottom: 2rem;
+	}
+
+	.element-blue {
+	  background-color: #E8F1FE;
+	  padding: 0rem 1rem 1rem 1rem;
+	  margin-top: 0rem;
+	  margin-bottom: 2rem;
+	}
 	.container .image {
 		order: 1;
 	}
@@ -302,6 +338,16 @@ FLEXBOX STYLING - Échanger
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.container .block-transparent video {
+		margin-top: 0rem;
+		margin-bottom: 0rem;
+		flex: 0 1 auto;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.container .text-transparent {
 		margin-bottom: 3rem;
 	}
@@ -312,12 +358,21 @@ FLEXBOX STYLING - Échanger
 		margin: 0rem;
 		background-color: #FFF;
 	}
+
 	.container .block img {
 		max-width: 150px;
 		-webkit-flex: 3 1 auto;
 		-ms-flex: 3 1 auto;
 		flex: 3 1 auto;
 	}
+
+	.container .block video {
+		max-width: 150px;
+		-webkit-flex: 3 1 auto;
+		-ms-flex: 3 1 auto;
+		flex: 3 1 auto;
+	}
+
 	.container .table-block h2 {
 		display: block;
 		font-size: 110%;
@@ -339,91 +394,7 @@ FLEXBOX STYLING - Échanger
 	}
 	/* END OF CONTAINERS */
 
-	/* ROW TITLES */
-	h2.number {
-		text-align: right;
-	}
-	h2.deposit {
-		text-align: right;
-	}
-	h3.entry {
-		text-align: left;
-	}
-	h3.price {
-		text-align: left;
-	}
-	h3.quantity {
-		text-align: left;
-	}
-	h3.total {
-		text-align: right;
-	}
-	/* END OF ROW TITLES */
-
-	/* COLUMN CONTENTS */
-	h4.entry {
-		text-align: left;
-	}
-	p.price {
-		text-align: left;
-	}
-	p.quantity {
-		text-align: left;
-	}
-	p.total {
-		text-align: right;
-	}
-	/* END OF COLUMN CONTENTS */
 	/* END OF TEXT STYLING FOR CHECKOUT CART */
-
-	/* TEXT INPUT FIELD */
-	input.floating-field {
-		padding: 10px 10px 10px 5px;
-		font-size: 100%;
-		font-weight: 600;
-		display: block;
-		max-width: 150px;
-		border: none;
-		border-bottom: 2px solid #030303;
-		background-color: transparent;
-	}
-	.bar {
-		position: relative;
-		display: block;
-		max-width: 150px;
-	}
-	.container .table-block input.floating-field {
-		padding: 10px 10px 10px 5px;
-		font-size: 100%;
-		font-weight: 600;
-		display: block;
-		max-width: 150px;
-		border: none;
-		border-bottom: 2px solid #030303;
-		background-color: transparent;
-	}
-	.container .table-block .bar {
-		position: relative;
-		display: block;
-		max-width: 150px;
-	}
-	/* END OF TEXT INPUT FIELD */
-
-	/* ADD-TO-CART BUTTON */
-	.add-to-cart-button {
-		font-weight: 600;
-		padding: 1rem 1rem 1rem 1rem;
-		color: #FFF;
-		background-color: #030303;
-		border-style: hidden;
-		text-decoration: none;
-		transition-property: background-color;
-		transition-duration: 0.5s;
-	}
-	.button-value {
-	  margin-bottom: 1em;
-	}
-	/* END OF ADD-TO-CART BUTTON */
 
 	/* FOOTER */
 	.footer-menu ul {
