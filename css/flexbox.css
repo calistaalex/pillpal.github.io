@@ -206,7 +206,7 @@ FLEXBOX STYLING - Échanger
 
 /* BREAKPOINT 5 */
 @media (max-width:950px) {
-
+	
 	.hero-image {
 	  background-image: url("../img/background-color.jpg");
 	}
